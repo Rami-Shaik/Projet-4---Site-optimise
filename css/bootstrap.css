@@ -1658,7 +1658,7 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
 }
 
 .text-justify {
@@ -7795,8 +7795,10 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    border-radius: 50%;
 }
+
 
 .pull-right {
     float: right !important
