@@ -5,6 +5,30 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    border: 2px solid red;
+    width: 100%;
+}
+
+.page-container
+{
+    border: 2px solid black;
+    width: 100%;
+}
+#bloc-0
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-navigation
+{
+    padding-right: 15%;
+}
+
+#bloc-0
+{
+    width: 100%;
 }
 
 a,
@@ -88,6 +112,8 @@ a:hover {
     left: 0;
     right: 0;
 }
+
+
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -782,6 +808,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
 }
 
 h2 {
@@ -794,6 +821,15 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+.col-sm-3
+{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .med-width-whitespace {
@@ -813,6 +849,11 @@ h4 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+}
+
+.social_name
+{
+    font-size: 0;
 }
 
 .white {
@@ -907,8 +948,11 @@ h4 {
 
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
+        /*padding-left: 20px;
         padding-right: 20px;
+        margin-left: auto;
+        margin-right: auto;*/
+        width: 100%;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
@@ -1133,9 +1177,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    
+    #bloc-8
 }
 
-@media (max-width:425px)
-{
-    
-}
